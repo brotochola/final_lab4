@@ -1,0 +1,51 @@
+.calendario {
+    width: 80vw;
+    position: relative;
+    left: 10vw;
+    overflow-x: hidden;
+    margin-top: 5vh;
+    /* background: green; */
+    height: 70vh;
+    overflow-y: scroll;
+    /* border: 2px solid #cccccc; */
+    /* padding: 1vw; */
+    font-size: 2vw;
+}
+
+.dia {
+    width: 14.15%;
+    display: inline-block;
+}
+
+.calendario b {
+    background: #287699;
+    color: white;
+    padding: 0%;
+    border: 1px solid darkgray;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.3vw;
+}
+
+.turno {
+    min-height: 21px;
+    background: #fff;
+    max-height: 10px;
+    /* padding-bottom: 20px; */
+    border: 1px solid #a8bfd6;
+    font-size: 1.2vw;
+    line-height: 5px;
+}
+
+.turno.ocupado{
+    background: #b9d3df;
+}
+
+.turno:hover{
+
+background:#eeeeee;
+}
+    
+.turnoCancelado{
+background:red;
+}
